@@ -10,3 +10,14 @@ th {
     color: white;
     padding: 6px;
 }
+.box {
+    background: tomato;
+    width: 800px;
+    height: 600px;
+    box-shadow: 10px 10px lightgray;
+    border-radius: 10px;
+}
+
+.tfoot {
+    text-align: left;
+}

@@ -1,23 +1,19 @@
-table, td {
-    border: 2px solid;
-    border-collapse: collapse;
-    padding: 5px;
-}
 
-th {
-    background-color: #427fef;
-    font-style: initial;
-    color: white;
-    padding: 6px;
-}
+
+
+
+
+
 .box {
-    background: tomato;
-    width: 800px;
-    height: 600px;
-    box-shadow: 10px 10px lightgray;
-    border-radius: 10px;
+
+    height: 5rem;
+    width: 5rem;
+    background-color: aqua;
+
 }
 
-.tfoot {
-    text-align: left;
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
+    border: 4px solid rebeccapurple;
 }
